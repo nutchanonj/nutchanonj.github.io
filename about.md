@@ -20,7 +20,7 @@ For over 9 years in primary and secondary education, I was studying at [Satit De
 
 In high school, I was studying in a very STEM-oriented, [Mahidol Wittayanusorn School](https://www.mwit.ac.th/html/). There, I was in the National Chemistry Olympiad Team. I received silver medal in [13th Thailand Chemistry Olympiad in 2017](https://web.facebook.com/NonJariyanurut/posts/pfbid02VfekkqrG7oJrweQ4zUk3wekvBRFt1kEoV2tkzJEZmTgF9LZJMmAfJYd8Pr2KsVM4l) (I didn't make it to the international Olympiad, though.)
 
-In 2017, I was participating in [International Chemistry Tournament](http://ichto.org/en/). It is the competition where participants solve the open-ended chemistry problems provided by the tournament, and the scoring is based on debating with scientific foundation. That year the tournament took place in originating country, Russia. I received a best presentation award.
+In 2017, I was participating in [International Chemistry Tournament](http://ichto.org/en/). It is the competition where participants solve the open-ended chemistry problems provided by the tournament, and the scoring is based on debating with scientific foundation. That year the tournament took place in originating country, Russia. I received a [best presentation award](http://ichto.org/en/the-results-of-the-ichto-2017/).
 
 During my high school years, The science project I conducted was *[Development of wood density measuring instrument by determining the speed of stress wave in wood with piezoelectric effect](https://www.nstda.or.th/sims/login/index.php?class=AbstractProposalView&id=29)*. It was presented in [TISF 2019](https://www.facebook.com/TISF2021/), [ASMS International Science Fair 2018](https://asms.sa.edu.au/international-science-fair/), and [YSC 2018](http://fic.nectec.or.th/ysc20_Decisions). In the YSC, it received special award in the field of engineering and physics science project.
 
@@ -64,4 +64,5 @@ My Senior Project is the continuation from my internship work, that is, designin
 - Control Systems (Linear, Digital)
 - Artificial Intelligence
 - Optimization Techniques
+- Stochastic Processes
 - Media Compression Techniques
