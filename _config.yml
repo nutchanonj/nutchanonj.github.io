@@ -41,6 +41,10 @@ nav_external_links:
     url: https://nutchanonj.github.io/myblog/
     hide_icon: false # set to true to hide the external link icon - defaults to false
 
+# add emoji.
+plugins:
+  - jemoji
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
