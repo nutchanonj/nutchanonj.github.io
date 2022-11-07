@@ -9,7 +9,7 @@ nav_order: 5
 
 P.S. Now there is a new version of Odrive. My note is referred to Odrive 3.6. This note is intended as an archived reference for future members in [EIC Chula](https://web.facebook.com/eicchulalongkorn). However, this is public.
 
-In [RoboCup 2022 @Home Open Platform League](https://athome.robocup.org/2022-qualified-teams/), our robot *Walkie* ([his/her own instagram](https://www.instagram.com/walkie_eic/)) used hoverboard motors for his/her base movement. The controller is Odrive 3.6.
+In [RoboCup 2022 @Home Open Platform League](https://athome.robocup.org/2022-qualified-teams/), our robot *Walkie* ([his/her own instagram](https://www.instagram.com/walkie_eic/)) used [hoverboard motors](https://www.amazon.com/HULKWHEELS-Electric-Brushless-Toothless-Skateboard/dp/B08BFPTWCZ) for his/her base movement. The controller is Odrive 3.6.
 
 {: .warning } 
 Always cautious because there is always risk of breaking your board (and it's expensive!)
@@ -53,9 +53,55 @@ Please modify `odrv0.axis1.motor.config.calibration_current` to the suitable val
 {: .note } 
 If you run both terminal and any Python IDE at the same time, they will fight for accessing the USB. So, please run only one at a time. I recommend that for the first time, run on the terminal is the bast way. When everythings work, gather all step into one Python code.
 
-
-
 After you finish calibration, there should be no error. 
 
+You can see [here](https://drive.google.com/file/d/1Dos8hIA3wKShhRdPNJD6h-djf7STYQrp/view?usp=sharing) that the accuracy of speed is very good, evern though Hall sensor's cpr is only 90. (In the video the motor is being driven with velocity of 2 round per second, so the measurement read and display 120 round per minute.)
 
+You can use this code to see how the variation of speed changes over time. This is helpful for you when you want to tune the PID variables.
 
+```python
+import odrive
+from odrive.enums import *
+from odrive.utils import start_liveplotter
+import time
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+odrv0 = odrive.find_any()
+print(odrv0)
+
+vel = 0.5
+P = 6.5
+I = 2.5
+
+seconds = 10
+
+odrv0.axis0.controller.config.vel_gain = P
+odrv0.axis1.controller.config.vel_gain = P
+
+odrv0.axis0.controller.config.vel_integrator_gain = I
+odrv0.axis1.controller.config.vel_integrator_gain = I
+
+odrv0.axis0.requested_state = AXIS_STATE_CLOSED_LOOP_CONTROL
+odrv0.axis0.controller.input_vel=-vel
+odrv0.axis1.requested_state = AXIS_STATE_CLOSED_LOOP_CONTROL
+odrv0.axis1.controller.input_vel=vel
+
+vel_data = [];
+
+for i in range(seconds*4):
+    vel_data.append(-odrv0.axis0.encoder.vel_estimate)
+    time.sleep(0.25)
+
+odrv0.axis0.controller.input_vel=0
+odrv0.axis0.requested_state = AXIS_STATE_IDLE
+odrv0.axis1.controller.input_vel=0
+odrv0.axis1.requested_state = AXIS_STATE_IDLE
+
+xpoints = np.array(range(seconds*4))
+ypoints = np.array(vel_data)
+
+plt.plot(xpoints, ypoints)
+plt.show()
+```
