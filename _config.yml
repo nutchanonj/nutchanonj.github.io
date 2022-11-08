@@ -37,6 +37,9 @@ aux_links:
     - "https://nutchanonj.github.io/myblog/"
 
 nav_external_links:
+  - title: My GitHub
+    url: https://github.com/nutchanonj
+    hide_icon: false # set to true to hide the external link icon - defaults to false
   - title: My Blog (in Thai)
     url: https://nutchanonj.github.io/myblog/
     hide_icon: false # set to true to hide the external link icon - defaults to false

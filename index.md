@@ -19,6 +19,8 @@ My spirit animal is in a phylum of [Cnidaria](https://en.wikipedia.org/wiki/Cnid
 
 This is the main page for publishing my works. For my blog, please go [here](https://nutchanonj.github.io/myblog/).
 
+[My Curriculum Vitae](/files/CV_NutchanonJariyanurut.pdf)
+
 ## Contact
 
 - **Email:** [nutchanon.non@outlook.co.th](nutchanon.non@outlook.co.th) or [n.jariyanurut2000@gmail.com](n.jariyanurut2000@gmail.com) (Fastest)
