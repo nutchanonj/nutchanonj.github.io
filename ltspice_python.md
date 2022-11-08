@@ -2,10 +2,10 @@
 layout: page
 title: LTSpice with Python Automation
 permalink: /ltspice_python/
-nav_order: 6
+nav_order: 7
 ---
 
-# LTSpice_with_Python 
+# LTSpice_with_Python :zap:
 LTSpice with hand calculations is not enough, so Python come for the rescue! [Link to the repository.](https://github.com/nutchanonj/LTSpice_with_Python)
 
 NOTE: This repository's author gratefully wants to thank [Nuno Brum](https://github.com/nunobrum) for his library of [PyLTSpice](https://github.com/nunobrum/PyLTSpice). Without his great work, this project would not become possible.
