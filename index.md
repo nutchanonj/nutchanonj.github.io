@@ -19,3 +19,9 @@ My spirit animal is in a phylum of [Cnidaria](https://en.wikipedia.org/wiki/Cnid
 
 This is the main page for publishing my works. For my blog, please go [here](https://nutchanonj.github.io/myblog/).
 
+## Contact
+
+- **Email:** [nutchanon.non@outlook.co.th](nutchanon.non@outlook.co.th) or [n.jariyanurut2000@gmail.com](n.jariyanurut2000@gmail.com) (Fastest)
+- **Facebook:** [Non Jariyanurut](https://www.facebook.com/NonJariyanurut). (You can contact me via the Messenger without need to add friend.)
+- **YouTube:** [Nutchanon Jariyanurut](https://www.youtube.com/channel/UCEPwhyRvDrvB_CHxAquxbtw)
+- **LinkedIn:** [Nutchanon Jariyanurut](https://www.linkedin.com/in/nutchanon-j-2b1457135/)
