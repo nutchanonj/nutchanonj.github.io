@@ -23,7 +23,7 @@ This is the main page for publishing my works. For my blog, please go [here](htt
 
 ## Contact
 
-- **Email:** [nutchanon.non@outlook.co.th](nutchanon.non@outlook.co.th) or [n.jariyanurut2000@gmail.com](n.jariyanurut2000@gmail.com) (Fastest)
+- **Email:** [nutchanon.non@outlook.co.th](nutchanon.non@outlook.co.th) (Fastest) or [n.jariyanurut2000@gmail.com](n.jariyanurut2000@gmail.com)
 - **Facebook:** [Non Jariyanurut](https://www.facebook.com/NonJariyanurut). (You can contact me via the Messenger without need to add friend.)
 - **YouTube:** [Nutchanon Jariyanurut](https://www.youtube.com/channel/UCEPwhyRvDrvB_CHxAquxbtw)
 - **LinkedIn:** [Nutchanon Jariyanurut](https://www.linkedin.com/in/nutchanon-j-2b1457135/)
