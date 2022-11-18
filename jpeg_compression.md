@@ -158,7 +158,7 @@ plt.show()
 
 *The left 8x8 blocks are from the quantized DCT blocks, where the right 8x8 blocks are the corresponding unquantized DCT blocks. You can see that further away from the DC coefficent at the upper left, the value of AC coefficients are more heavily decreased relatively.*
 
-Now, we are tempted to reconstruct the image to see how much the image is changed after the compression. Let's begin! (Notice taht it is just like to step back from where we are.)
+Now, we are tempted to reconstruct the image to see how much the image is changed after the compression. Let's begin! (Notice that it is just like to step back from where we are.)
 
 ```python
 # %% Rescaling by quantization.
