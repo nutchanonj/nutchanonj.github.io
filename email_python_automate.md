@@ -85,7 +85,7 @@ if __name__ == '__main__':
 
 The CSV and attachment files have to be in the same directory. 
 
-This code had been used in the real Job Fair when I organize it for my faculty in January 2022. At first, I was afriad that automated mails would end up in junk or be marked as spams. It didn't happen, though.
+This code had been used in the real Job Fair when I organize it for my faculty in January 2022. At first, I was afraid that automated mails would end up in junk or be marked as spams. It didn't happen, though.
 
 However, I recommend that you try to send this automated mail to your test account first!
 
