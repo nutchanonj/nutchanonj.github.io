@@ -18,6 +18,9 @@ The recommended textbooks will be written with **boldface**.
 
 ## Year 2 Semester 1
 
+![Bhumibol Bridge](/images/bhumibol-bridge.jpg)
+*Bhumibol Bridge*
+
 ### ELECT ENG MATH I
 
 You will learn about all techniques involved in solving differential equations, solving difference equations, learning about Fourier series and Fourier transform, Laplace transform, Z-transform. Lastly, you will learn to solve partial differential equations (PDEs.)
@@ -40,6 +43,8 @@ For those who want to rely on textbook, I recommend **Differential Equations wit
 
 For an exam, I do not recommend that you rely on textbooks, since the exam will be much harder than problems in textbooks. Instead, rely on Ajarn Supatana’s lecture notes and her former exams.
 
+---
+
 ### PROB STAT ELEC ENG
 
 You will learn all the basic in statistics required in EE. The course is very easy in my opinion.
@@ -52,6 +57,8 @@ For the main textbook accompanied with the teaching, please refer to prof. Howev
 
 **Introductory Statistics by Neil A. Weiss**: For those who have time, I found this book to be practical, not heavily theoretical, so that you can see more easily how statistics can be applied to real world problems. I think it is suitable for someone who do not want to learn stats by seeing many, many math theorems.
 
+---
+
 ### CIR THEORY I/LAB
 
 This is essential for every EE student, period.
@@ -62,9 +69,13 @@ The book covers all the topics that you require to learn in this course. The pro
 
 P.S. This course has lab exams. I recommend that you go and practice when there is an allocated time provided by prof before the lab exam. (Even though this is not the obligation, it will help you.)
 
+---
+
 ### ENG MECHANICS I
 
 The only subject from Mechanical Engineering. Both **Engineering Mechanics by R. Hibbeler** or by **J.L. Meriam & L.G. Kraige** will do your favor. Do homework by yourself since one of the problems will be appear on the exam. End of the review.
+
+---
 
 ### CALCULUS III
 
@@ -72,7 +83,12 @@ This is essence. Do not believe someone who say this course is useless. Electrom
 
 I recommend that you do exercises provided by prof by yourself, just like what you have done in CALCULUS I and CALCULUS II. The exam will be hard as that. Prof’s handouts are enough. But if not, any international calculus textbooks will do you favors. I personally recommend **Calculus: Early Transcendentals by Howard Anton, Irl Bivens, and Stephen Davis**. Read the entire book, trust me, you are going to use all of those topics in many subsequent courses.
 
+---
+
 ## Year 2 Semester 2
+
+![Nang Loeng Racecourse](/images/Nang_Loeng_Racecourse.jpg)
+*Nang Loeng Racecourse (The Royal Turf Club of Thailand under Royal Patronage)*
 
 ### ELECT ENG MATH II
 
@@ -89,11 +105,15 @@ I want to emphasize that Linear Algebra is very important in every field of engi
 -	You will finally know how to evaluate some improper integrals which can be solved much easier by the residue theorem.
 -	You will finally know how to evaluate inverse Laplace transform without finding partial fraction of a function (but you will not do it that way anyway.)
 
+---
+
 ### CIR THEORY II
 
 In my opinion, this course material is not updated at all. The book of which professors are still using is **Network Analysis and Synthesis by Franklin F. Kuo**. Seriously, this book is published in *1966*, the year my father was born. I would not recommend this book to any new EE students since the way this book handles electrical circuits is obviously outdated. Anyway, I do recommend, still, for those who want to understand how circuits are analysed before the time when computers are very rampant. Nowadays, it is more common to use state-space to analyse any linear models (e.g., linear circuits.) In the book mentioned, the author used full matrix representation to analyse the voltages of all nodes, or the currents of all paths to analyse the circuit. Obviously, this is very computationally-heavy! The practices for the problems which are going to be on the exam are also virtually none since this technique is already outdated. However, there are problems from Ajarn Manop which can be done by hands and can be checked by Simscape Electrical. I also had done it almost entirely and they should be in the EE resources’ Google Drive.
 
 Before the midterm, you will learn the topic mentioned above. After the midterm, more modern techniques such as state-space model and two-port networks will be taught. You can go back and use **Fundamentals of Electric Circuits by Charles K. Alexander, Matthew N.O. Sadiku** to follow those topics again. I want to emphasize that this course is very connected to Linear Algebra in ELECT ENG MATH II. I also want to emphasize that this course will make you more appreciate LIN CONT SYS I, since the way of analyzing electrical circuits will be directly applied to general linear models (mechanical, thermal, etc.) in that course.
+
+---
 
 ### ENG EMAG
 
@@ -111,10 +131,14 @@ First 9 chapters will be taught in the course. If you cannot self-study from thi
 
 **Electromagnetism: Problems with Solutions by Pramanik**: How the authors can compile these many problems in EM is astonishing. I recommend that if you really have time and get bored of former exams, go for this book.
 
+---
+
 ### ELEC MACH I
 
 This is the first course that is, in my opinion, practical-oriented.
 
 **Electric Machinery Fundamentals by Chapman** is the book used by professor, and I recommend you to read all of the book, since every topic is relevant to technology in these days. I also recommend that, for those will find this book not theoretical enough, you go for **Fitzgerald & Kingsley's Electric Machinery by Umans**. I personally had no time to read the latter book, though.
+
+---
 
 ## Year 3 Semester 1
