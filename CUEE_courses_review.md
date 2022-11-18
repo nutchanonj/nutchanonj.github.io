@@ -5,7 +5,7 @@ permalink: /CUEE_course_review/
 nav_order: 8
 ---
 
-# CUEE (formerly EECU) Courses Review by Nutchanon J
+# CUEE (formerly EECU) Courses Review by Nutchanon J :books:
 
 {: .note } 
 This is still under construction! :construction:
