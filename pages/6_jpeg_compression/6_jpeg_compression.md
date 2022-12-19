@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Note on JPEG Compression
-permalink: /JPEG_compression/
+permalink: /pages/6_jpeg_compression/
 nav_order: 6
 ---
 
@@ -37,7 +37,7 @@ print(im.shape)
 plt.imshow(im,cmap='gray')
 ```
 
-![Original Image](/jpeg_compression_images/barb_original.png)
+![Original Image](barb_original.png)
 
 This is the functions for DCT and inverse-DCT.
 
@@ -72,7 +72,7 @@ plt.imshow(dct,cmap='gray',vmax = np.max(dct)*0.01,vmin = 0)
 plt.title( "8x8 DCTs of the image")
 ```
 
-![DCT Image](/jpeg_compression_images/barb_dct.png)
+![DCT Image](barb_dct.png)
 
 It is more convenient to deal with seperated 8x8 blocks. Let's do it!
 
@@ -103,7 +103,7 @@ for idx in range(3):
 plt.show()
 ```
 
-![original vs DCT](/jpeg_compression_images/original_vs_dct.png)
+![original vs DCT](original_vs_dct.png)
 
 *The left 8x8 blocks are from the original image, where the right 8x8 blocks are the dct of that corresponding blocks*
 
@@ -154,7 +154,7 @@ for idx in range(3):
 plt.show()
 ```
 
-![quantized vs unquantized](/jpeg_compression_images/quantized_vs_unquantized.png)
+![quantized vs unquantized](quantized_vs_unquantized.png)
 
 *The left 8x8 blocks are from the quantized DCT blocks, where the right 8x8 blocks are the corresponding unquantized DCT blocks. You can see that further away from the DC coefficent at the upper left, the value of AC coefficients are more heavily decreased relatively.*
 
@@ -188,7 +188,7 @@ for i in np.arange(0, imsize[0], 8):
 plt.imshow(decode_im,cmap='gray')
 ```
 
-![quantized vs unquantized](/jpeg_compression_images/barb_compressed.png)
+![quantized vs unquantized](barb_compressed.png)
 
 *Reconstruction from the compressed file.*
 

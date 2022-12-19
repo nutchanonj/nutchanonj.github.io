@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Note on Odrive 3.6
-permalink: /odrive_note/
+permalink: /pages/5_odrive_note/
 nav_order: 5
 ---
 

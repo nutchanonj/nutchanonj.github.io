@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MATLAB Codes in Optimization Algorithms
-permalink: /optimization_matlab_codes/
+permalink: /pages/4_optimization_codes/
 nav_order: 4
 ---
 

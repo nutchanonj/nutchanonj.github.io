@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Digital IC Journey
-permalink: /digital_ic_journey/
+permalink: /pages/11_digital_ic_design/
 has_children: true
 nav_order: 11
 ---

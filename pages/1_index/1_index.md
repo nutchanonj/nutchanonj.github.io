@@ -9,7 +9,7 @@ nav_order: 1
 
 # Welcome to Nutchanon J's homepage.
 
-<img src="images/my_pic_index.jpg" alt="my_pic" style="width:500px;"/>
+<img src="my_pic_index.jpg" alt="my_pic" style="width:500px;"/>
 
 Hi! My name is Nutchanon Jariyanurut. I'm currently studying as a fourth year student at [Department of Electrical Engineering](https://ee.eng.chula.ac.th/), [Faculty of Engineering](https://www.eng.chula.ac.th/th/), [Chulalongkorn University](https://www.chula.ac.th/en/).
 

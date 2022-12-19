@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LTSpice with Python Automation
-permalink: /ltspice_python/
+permalink: /pages/7_ltspice_python/
 nav_order: 7
 ---
 

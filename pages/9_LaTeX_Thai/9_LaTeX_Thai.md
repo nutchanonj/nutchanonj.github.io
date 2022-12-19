@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LaTeX for Thai Language
-permalink: /LaTeX_Thai/
+permalink: /pages/9_LaTeX_Thai/
 nav_order: 9
 ---
 

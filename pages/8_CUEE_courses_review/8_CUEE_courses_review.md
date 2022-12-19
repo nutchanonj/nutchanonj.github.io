@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CUEE Courses Review
-permalink: /CUEE_course_review/
+permalink: /pages/8_CUEE_courses_review/
 nav_order: 8
 ---
 
@@ -18,7 +18,7 @@ The recommended textbooks will be written with **boldface**.
 
 ## Year 2 Semester 1
 
-![Bhumibol Bridge](/images/bhumibol-bridge.jpg)
+![Bhumibol Bridge](bhumibol-bridge.jpg)
 *Bhumibol Bridge*
 
 ### ELECT ENG MATH I
@@ -87,7 +87,7 @@ I recommend that you do exercises provided by prof by yourself, just like what y
 
 ## Year 2 Semester 2
 
-![Nang Loeng Racecourse](/images/Nang_Loeng_Racecourse.jpg)
+![Nang Loeng Racecourse](Nang_Loeng_Racecourse.jpg)
 *Nang Loeng Racecourse (The Royal Turf Club of Thailand under Royal Patronage)*
 
 ### ELECT ENG MATH II
