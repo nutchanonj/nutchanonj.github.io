@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Note on JPEG compression
+title: Note on JPEG Compression
 permalink: /JPEG_compression/
 nav_order: 6
 ---
