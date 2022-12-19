@@ -92,7 +92,7 @@ I recommend that you do exercises provided by prof by yourself, just like what y
 
 ### ELECT ENG MATH II
 
-This is my only course that I got a B+, so far. *I sleep too little before the final exam.*
+This is my only course that I got a B+, so far.
 
 I, personally, find that **Ajarn Jitkomut’s slides on Linear Algebra**, and **Ajarn Suchin’s slides on Complex Analysis** should be enough for you to get through this course. However, if you want to rely on textbooks, my recommendations are these textbooks:
 
