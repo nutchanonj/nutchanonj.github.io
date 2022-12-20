@@ -242,10 +242,31 @@ Chapter 11 and 13 will be taught further in PRIN ANALOG CIR. Chapter 14 to 16 is
 
 If you want to read the textbook that arrange its content in the same way as of the course, you can refer to **Microelectronics Circuit Analysis and Design by Donald A. Neamen**. I cannot comment on that book since I have not read it yet. (I just skim on it.) Other recommended textbooks are **Fundamentals of Microelectronics by Behzad Razavi** and **Microelectronic Circuit Design by Richard C. Jaeger**, those I haven't read yet, too.
 
-### LIN CONT SYS II
+{: .note } 
+The terminology used in this course is not the same as in any standard textbook. It is also not mentioned by the prof AT ALL. (Why? :expressionless:) So, I note it here: 
+- A(vin) = voltage gain with no load and no source resistance
+- A(vn) = voltage gain with no load but with source resistance
+- A(vi) = voltage gain with load but no source resistance
+- A(v) = voltage gain with load and source resistance
 
-### INTRO EMBED SYS
+### LIN CONT SYS II (compulsory elective; control system theory)
 
-### AI ENG
+### INTRO EMBED SYS (compulsory elective; electronics)
 
+### AI ENG (free elective; a course from computer engineering)
 
+---
+
+## Year 4 Semester 1
+
+### RANDOM PROC EE (compulsory elective; control system theory)
+
+### MMEDIA COMPR TECH (elective; communication)
+
+### DIG CONT SYS (compulsory elective; control system theory)
+
+### PRIN ANALOG CIR (compulsory elective; electronics)
+
+### INTRO OPT TECH (elective; control system theory)
+
+### DIG IC (elective; electronics)
