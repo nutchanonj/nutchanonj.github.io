@@ -3,18 +3,29 @@ layout: page
 title: CUEE Courses Review
 permalink: /pages/8_CUEE_courses_review/
 nav_order: 8
+has_toc: true
 ---
 
 # CUEE (formerly EECU) Courses Review by Nutchanon J :books:
+{: .no_toc }
 
-{: .note } 
-This is still under construction! :construction:
+![Chulalongkorn University](chula-1.jpg)
+*Chulalongkorn University (Photo by myself)*
 
 This review does not emphasize on how the professors teach each subject. The review summarize why we should learn on this topic, and how can it be applied to subsequent courses.
 
 Also, this review will be very centered on electronics and control systems, since I pursue in my study on these two fields.
 
 The recommended textbooks will be written with **boldface**.
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 ## Year 2 Semester 1
 
@@ -152,6 +163,8 @@ To be honest, this is the course that I did not give my attention that much. (Ho
 
 The prof's slides, materials and former exams should be enough for the course. If you are energetic for this course, please refer to **Power System Analysis and Design by J. Duncan Glover**. I heard that this book can be used further in ELEC POWER SYS II as well.
 
+---
+
 ### SEMICON DEV I
 
 This is where many EE students find themselve whether they really want to pursue further in electronics or not.
@@ -160,11 +173,15 @@ This course is taught entirely by [Ajarn Songpol](https://ee.eng.chula.ac.th/son
 
 The textbook that Ajarn Songpol uses for many years is **Solid State Electronic Devices by Ben Streetman**. I find that book good if you want to learn fast. If you want to learn these topics in a more physics-oriented way, I recommend you to read **Semiconductor Physics and Devices by Donald A. Neamen** for more in-depth understanding. (Again, if you have time.)
 
+---
+
 ### PRINC COMM/LAB
 
 This course give you many basic topics about communication in general. Some say it is useful, and some say it cannot provide any pictorial understanding about communication at all. I am in the former group; I find it useful enough for me who don't want to study further in communication field.
 
 The textbook that I relied on, parallelly with the prof's slides and materials, is **Modern Digital and Analog Communication Systems by B. P. Lathi**. I found it readable for any beginner. [Ajarn Nisachon](https://ee.eng.chula.ac.th/nisachon-tangsangiumvisai/) says that the course relies on **Digital and Analog Communication Systems by Leon Couch**, but I found it very hard to read for the beginners. Some people recommend the book **Communication Systems by Michael Moher and Simon Haykin**, but I haven't read that book yet.
+
+---
 
 ### FUND DIGIT CIRC
 
@@ -185,6 +202,8 @@ All of the basics will be taught in this course. The pair of books which I used 
 This course uses VHDL for synthesizing digital logics (even though Verilog is more popular.) For VHDL, The book from Charles H. Roth mentioned above have some units dedicated to VHDL, but I found them not enough for me. I personnally find **Free Range VHDL by Bryan Mealy and Fabrizio Tappero** to be very helpful for beginner who wants to start fast. (This book is FREE, you can search it for yourself in Google.) Anyway, this book does not include the topic on testbench (and many advanced topics about VHDL.) For more in-depth topics, you should follow **The Designer’s Guide to VHDL by Peter J. Ashenden**.
 
 For anyone interest in Verilog, I recommend **Quick Start Guide To Verilog by Brock J. LaMeres**.
+
+---
 
 ### LIN CONT SYS I/LAB
 
@@ -215,9 +234,13 @@ I personally hate this course, lol. (Don't mind me.)
 
 You can rely on prof's slides entirely and you should be fine. The textbook used by prof is **Principles of Electronic Materials and Devices by S. O. Kasap**, but I have no time to read that book. Good luck.
 
+---
+
 ### ELEC MEAS/INSTRU
 
 This course teaches you about the basics on electrical instrumentations and measurements. I personally find this course useful. The course has no companion textbook. Some of the topics are out-of-date in my opinion. Relying on prof's slides only and you should be fine. End of the review.
+
+---
 
 ### ETRON CIRCUIT/LAB
 
@@ -249,24 +272,261 @@ The terminology used in this course is not the same as in any standard textbook.
 - A(vi) = voltage gain with load but no source resistance
 - A(v) = voltage gain with load and source resistance
 
+---
+
 ### LIN CONT SYS II (compulsory elective; control system theory)
+
+I would like to say that this is a course which teaches all the things that you should have learnt in ELECT ENG MATH II and LIN CONT SYS I but have not learnt yet.
+
+For the first half before midterm, [Ajarn David](https://ee.eng.chula.ac.th/david-banjerdpongchai/) will review about all of the mathematical topics relevent to the course. Some topics that you have not learnt yet are:
+- QR factorization and Gram-Schmitt algorithm. (Why it was not taught in ELECT ENG MATH II!?)
+- left and right eigenvalues/eigenvectors.
+- least-square solution and pseudoinverse.
+- Jordan canonical form.
+
+Then, for the second half after midterm, (finally) the topics are shifted to control system theory.
+- controllability and observability.
+- minimalization of control system.
+- state-space feedback design.
+- state observer and observer-based controller.
+- introduction to servomechanism problem.
+- optimal state feedback (LQR problem.)
+
+The advanced topics will be taught, but will not be appeared on the exam:
+- optimal LQG control design.
+- robust control design.
+- model predictive control design. (MPC)
+
+For the recommended book, I suggest that for the first half, you should rely on any linear algebra textbook (I have recommended **Linear Algebra and Its Applications by David Lay, Steven Lay and Judi McDonald** in ELECT ENG MATH II and you should be fine if you have read it all.)
+
+For the second half, you can rely on the last 2 Chapters (5th edition) of **Modern Control Engineering by Katsuhiko Ogata**, but it won't be enough. **[Ajarn David](https://ee.eng.chula.ac.th/david-banjerdpongchai/)'s slides** should be enough and I find it *relatively* easy to read by yourself. I found that **A Linear Systems Primer by Panos J. Antsaklis** to be very concised mathematically. (For instance, many practical-oriented books such as Ogata or Dorf do not differentiate between *controllability* and *reachability* anymore, but this book from Antsaklis does explain how both are different.) So, I recommend that book if you have time.
+
+P.S. Most of the sildes from Ajarn David is brought from Stephen Boyd's EE263 materials of Stanford University. [Link](https://ee263.stanford.edu/archive/).
+
+---
 
 ### INTRO EMBED SYS (compulsory elective; electronics)
 
+This course is a rely-on-yourself course. I'm not kidding.
+
+For the first half, you will learn about C and C++. You will also learn some (very little) computer architecture relevant to embedded system. The AVR assembly language will be taught (a little.)
+
+For the second half, you will learn about Arduino (hands-on.) You will also learn about some embedded system low-level communication (SPI, I2C, CAN, etc.) 
+
+The recommended book for learning C by yourself is **C: How to Program by Harvey Deitel and Paul Deitel**. Actually, you can learn C from any source since it is a relatively easy programming language. 
+
+For the C++, the situation is very different. C++ is easy to learn but very hard to be mastered. ([You can see this meme.](https://www.reddit.com/r/ProgrammerHumor/comments/7eyrbx/how_to_learn_programming_in_21_days/)) For a quick start, I recommend **C++ Programming by D. S. Malik**. Until you find yourself say "Fuck, I could not understand other C++ codes even though I read that book." that I suggest you to read further in:
+
+**C++ Primer by Stanley B. Lippman**: This is recommended by so many Reddit users in the programming field. Very hard to read in my opinion but I got through this book and have no regret afterward. It will take your time and your brain energy. Get prepared for pointers (a LOT of.) Be prepared for headache.
+
+**Programming - Principles and Practice Using C++ by Bjarne Stroustrup**: Written by the creater of C++ himself, this is also recommended by so many (I mean 99\% of) Reddit users. The only downside of this book is that it is very big and take much time for beginner. But hey! C++ is supposed to take a lot of time anyway! So why not just read this book to save any further headache?
+
+For Arduino programming, I think learn from your own projects (those will be provided in the class anyway) is the best way. 
+
+Class materials should be enough for the exam. But for anyone further curiousity, I suggest taht you read **Making Embedded Systems by Elecia White**. It is the *overview* in professional world of embedded design.
+
+---
+
 ### AI ENG (free elective; a course from computer engineering)
+
+{: .note } 
+This is not a course in EE. This is a course from CP which is open for any student EXCEPT from CP itself.
+
+I love this course, the reasons are
+- A is guaranteed for those who summit all homeworks on time. (On time = before the final exam.)
+- There is no exam in this class.
+- How much you learn from this course depends on how much you work on this course. You can struggle through the HWs and get skills, or you copy other's HWs effortlessly and get nothing. (Academic integrity is a thing and I don't recommend you do that.)
+- All works can be done by yourself. This course has no group project so congratulation for introverts.
+
+Course materials and class attendances should be enough for you to get through this course. You don't need to get an A in the 1st year computer programming course to be good in this AI ENG course. This course DOES NOT guarantee that you will get a job in ML or data analytics or somethings. Anyway, this course is recommended by me because you will learn the best practice in ML and data analytics from the professors themselves. Many professors are actively finding someone who want to work in ML (as a researcher assistance) from this course members; some of my friend in EE got research works of CP prof from this course. Again, this course provides many opportunities, but it depends on how much you works for.
+
+Course content for each week:
+- Week 1: Introduction to AI for Engineers
+- Week 2: State-Space Search
+- Week 3: Iterative Improvement Algorithm
+- Week 4: Machine Learning Pipeline
+- Week 6: Linear Regression
+- Week 7: Logistic Regression
+- Week 8: Naive Bayes Classifier
+- Week 9: Decision Tree
+- Week 10: Unsupervised Learning
+- Week 11: Neural Networks
+- Week 12: CNN
+- Week 13: Transfer Learning
+- Week 14: Sequence Modeling
 
 ---
 
 ## Year 4 Semester 1
 
+![Kyoto, Japan](kyoto-japan.jpg)
+*Kyoto, Japan (Photo by Kristin Wilson)*
+
+{: .warning } 
+This semester is very heavy. I DO NOT RECOMMEND YOU TO TAKE 22 CREDITS MAX OR MORE THAN THAT! I assume that you still want to have life outside studying. I also assume that you don't want a life like medical students who need more than 60 hours per week of studying. This semester has a pre-project course. This semester has many courses which are supposed to be for Master students, and those courses are much more heavy than you have imagined when you are in the 2nd or 3rd year. So, please do not underestimate this semester. You will hate yourself if you are studying too much.
+
 ### RANDOM PROC EE (compulsory elective; control system theory)
+
+This is the course which teaches all the things that you should have learnt in ELECT ENG MATH II, PROB STAT ELEC ENG and PRINC COMM but have not learnt yet.
+
+For the first half before midterm, [Ajarn Jitkomut](http://jitkomut.eng.chula.ac.th/) will teach you all of the basics
+
+Topics that are taught in this course (that should be in the PROB STAT ELEC ENG) are:
+- Markov chains
+- characteristic functions of distributions
+- many special characteristics of Gaussian
+- random vectors
+- principal component analysis
+- etc.
+
+Topics that are taught in this course (that should be in the ELECT ENG MATH II) are:
+- symmetric matrix
+- orthogonality and orthonormality
+- unitary matrix
+- properties of definite matrices
+
+For the second half of this course, [Ajarn Charnchai](https://ee.eng.chula.ac.th/charnchai-pluempitiwiriyawej/) will teach (finally) about the topics in random processes. The book used by both professors is **Probability, Statistics, and Random Processes For Electrical Engineering by Alberto Leon-Garcia**. To be honest, I find *so many errors* in that book that it caused some annoyance for me, but whatever. Ajarn Charnchai will teach on Chapter 9 and 10 in that book (3rd edition.)
+
+To me, I find the classes in random processes to have so many approach to be taught. Ajarn Jitkomut will approach this course in a data-analytics-oriented way since her researches are related to that field. For Ajarn Charnchai, the approach is communication-oriented. Many really essential topics (in my speculation) in random processes are skipped such as queueing theory (it is taught in the another course, that is TRAF ENG COMM NET by [Ajarn Chaodit](https://ee.eng.chula.ac.th/chaodit-aswakul/)) In my opinion, the field of random (stochastic) processes is freaking huge! The other book recommendation from me are **Essentials of Stochastic Processes by Rick Durrett** and **Introduction to Stochastic Processes with R by Robert P. Dobrow**.
+
+---
 
 ### MMEDIA COMPR TECH (elective; communication)
 
+Why I'm in this course is still mesmerizing myself lol.
+
+This course is recommended for those who want to learn the data compression techniques in a very concised way. I don't know how [Ajarn Supavadee](https://ee.eng.chula.ac.th/supavadee-aramvith/) can compress all of the topics in just one semester!? The book used in this course is the holy grail, the one and only, **Handbook of Data Compression by David Salomon**. This book is more than 1300-page long! I found myself could not learn this topic by myself obviously, so I took this course.
+
+Bonus from this course is that you will finally know 
+- why ffmpeg can only cut the MPEG video in a lossless way at only some of the certain keyframes.
+- why JPEG compression can be done in more than 50\% compression ratio without visible changes.
+- how f--king complex modern audio compression (MP3) is.
+
+---
+
 ### DIG CONT SYS (compulsory elective; control system theory)
+
+I strongly recommend that you should take LIN CONT SYS II before this course.
+
+The course materials are mostly overlapped with the LIN CONT SYS II material. Anyway, some topics are new and I recommend that, for those who are interested in digital control system but have already taken the LIN CONT SYS II, you should still take this course.
+
+The topics that are not overlapped with the LIN CONT SYS II are:
+- zero-order hold
+- continuous-time to discrete-time system estimation
+- designing of discrete-time system to meet step response specifications (how it is different from continuous-time system?)
+- reduced-order state observer (not appeared in the exam.)
+- generalized linear observer (not appeared in the exam.)
+- Kalman equation for solving Riccati equation.
+
+For the book, I strongly recommend that you read **Digital Control and State Variable Methods by M. Gopal**. This book is very comprehensive, mathematically concise and practical-oriented. I also strongly recommend **Digital Control System Analysis and Design by Charles L. Phillips**. This book has a topic on reduced-order state observer.
+
+Last comment: Why Jury stability criterion is not covered in this course???
+
+---
 
 ### PRIN ANALOG CIR (compulsory elective; electronics)
 
+Note: BJT is forgotten.
+
+This course is supposed to be continued from ETRON CIRCUIT/LAB of the last semester. This includes
+
+- More MOS characteristics.
+- More topologies of Amplifiers.
+- More Differential Ampifiers.
+- More Current Mirrors.
+- More Frequency responses.
+- Noise.
+- Feedback.
+- Op-Amp internal circuit.
+- Frequency compensation techniques (not on the exam.)
+
+To be honest, if you hate ETRON CIRCUIT/LAB, you will hate PRIN ANALOG CIR more. Consider your decision in taking this course thoroughly.
+
+The recommended books are:
+
+**Design of analog CMOS integrated circuits by Behzad Razavi**: The holy grail in analog circuit design. Read this book thoroughly and you should be fine for this course. 
+
+**Analysis and Design of Analog Integrated Circuits by Paul R. Gray**: This book is for my reference. I personnally find that this book is not for beginner, but for someone who needs variety of analog circuit references with very concise mathematical handling. 
+
+**CMOS Circuit Design, Layout, and Simulation by R. Jacob Baker**: This book is recommended by so many people that I decide it should be on the list. It covers so many essential topics in microelectronics that you should know. I find this book to be more practical-oriented than theoretical-oriented, that you can learn from this book by your own interests.
+
+**Microelectronic Circuits - Sedra & Smith**: This book is never be enough for this course. But for me, I found that the explanation of feedback topologies in Razavi book to be very hard to read. I found that Sedra & Smith explain feedback topologies much, much better.
+
+I would like to say that you will not have time in this semester, so read only this first book and you should be fine. Also, I strongly recommend that you read the quick review from [Ajarn Boonchuay](https://ee.eng.chula.ac.th/boonchuay-supmonchai/) since his materials are very helpful in quick analog circuit analysis. He is going to be retired in 2023 so I will put his materials (together with of [Ajarn Napong](https://ee.eng.chula.ac.th/napong-panitantum/)) here: [Link](https://mega.nz/folder/ynQi1DSZ#adxcxV-sO7ii0TwU4iqCeA)
+
+---
+
 ### INTRO OPT TECH (elective; control system theory)
 
+<img src="meme.jpg" alt="meme" style="width:200px;"/>
+
+This course is hard. I bombed the final exam *entirely*.
+
+The topics in this course are:
+- mathematics review.
+- solving nonlinear equations (bisection, Newton-Raphson, secant.)
+- unconstrained optimization:
+    - optimality conditions.
+    - line search (bisection, golden section, quadratic and cubic interpolation.)
+    - steepest descent method.
+    - Newton's method.
+    - conjugated direction methods.
+    - quasi-Newton methods. 
+- constrained optimization:
+    - optimality conditions (including KKT.)
+    - linear programming
+    - active set method for quadratic programming with linear constraints.
+
+You need to love mathematical proving to do this course homework. You also need to love MATLAB.
+
+The recommended books are:
+
+**An Introduction to Optimization by Edwin K. P. Chong**: This book is used by [Ajarn Suchin](https://ee.eng.chula.ac.th/suchin-arunsawatwong/), and I find it relatively easy to read. Use this book along with the prof's materials and you should have the best understanding from this course.
+
+**Linear and Nonlinear Programming by David Luenberger**: This book is used worldwide. I recommended that you also use this book along with the course.
+
+**Algorithms for Optimization by Tim A. Wheeler and Mykel J. Kochenderfer**: If you don't know where to start in coding MATLAB, you can start from this book. Even though this book uses Julia as a programming language, you should have no difficulty in applying those to your own MATLAB works.
+
+To be honest, I find this course to be somehow more heavy in mathematical theory than it should. The final exam also requires real brain power to do numerical things, and proving mathematical problems in 3-hours exam, for me, was exhausting. Since Ajarn Suchin will be retired next year (2023,) Ajarn Jitkomut will take place to teach this course. You can see how the course will be taught in the future (speculation, again) from this [link](http://jitkomut.eng.chula.ac.th/optim.html).
+
+---
+
 ### DIG IC (elective; electronics)
+
+For those who want to do digital design in the future, I recommend that you take this course. It is not required, though. (You don't have to know how to fabricate IC to do digital design, but it is always helpful.)
+
+This course is all about how to implement what you have learnt in FUND DIGIT CIRCUIT in the real IC. The topics covered are:
+
+- MOS characteristics (including short-channel nonideality.)
+- IC fabrication.
+- Wiring in IC.
+- Delay.
+- Static and Dynamic logics.
+- Combinational (NAND, NOR) and Sequential (flipflop, latch) logics and layouts.
+- Timing constraints.
+- Arithmetic circuits and datapath.
+- Testing of digital logics.
+
+The recommended book is **CMOS VLSI Design: A Circuits and Systems Perspective by Neil Weste and David Harris**.
+
+---
+
+## Year 4 Semester 2
+
+### ANALOG IC (elective; electronics)
+
+to be continued.
+
+---
+
+### STAT INFER MODEL (elective; control system theory)
+
+to be continued.
+
+---
+
+### DIG SIG PROC (compulsory elective; communication)
+
+to be continued.
+
+---
