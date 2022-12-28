@@ -265,7 +265,7 @@ For anyone interest in Verilog, I recommend **Quick Start Guide To Verilog by Br
 
 ---
 
-### EE333: IN CONT SYS I/LAB
+### EE333: LIN CONT SYS I/LAB
 
 Quantity of Content: :star: :star: :star: :star: \\
 Course Workload: :star: :star: :star: \\
