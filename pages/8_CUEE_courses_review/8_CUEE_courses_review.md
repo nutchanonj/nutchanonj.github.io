@@ -12,9 +12,17 @@ has_toc: true
 ![Chulalongkorn University](chula-1.jpg)
 *Chulalongkorn University (Photo by myself)*
 
-This review does not emphasize on how the professors teach each subject. The review summarize why we should learn on this topic, and how can it be applied to subsequent courses.
+This review does not emphasize on how the professors teach each subject. The review summarize why we should learn on this topic, and how can it be applied to subsequent courses. The review also includes the workload of each course so you can decide how many credits you want to register in each semester.
+
+Three metrics are given:
+- Quantity of Content: How much the content in the course is.
+- Course Workload: How much HWs and projects in the course are. Please note that this **does not include** the time that you have to read or review the content, or prepare for exam.
+- Exam Difficulty: How difficult the exams (midterm, final, quizzes) are.
 
 Also, this review will be very centered on electronics and control systems, since I pursue in my study on these two fields.
+
+{: .warning } 
+My review may be out-of-date. To be specific, Year 2 of mine is A.Y.2020, Year 3 of mine is A.Y.2021 and Year 4 of mine is A.Y.2022. (A.Y. = academic year.) Please note that 2020 and 2021 were heavily affected by the COVID-19 pandemic and the review on teaching would not be accurate. Hence, I focus on the content of each course instead.
 
 The recommended textbooks will be written with **boldface**.
 
@@ -32,7 +40,11 @@ The recommended textbooks will be written with **boldface**.
 ![Bhumibol Bridge](bhumibol-bridge.jpg)
 *Bhumibol Bridge (Photo from Yee Associates)*
 
-### ELECT ENG MATH I
+### EE201: ELECT ENG MATH I
+
+Quantity of Content: :star: :star: :star: :star: \\
+Course Workload: (No HWs and projects) \\
+Exam Difficulty: :star: :star: :star: :star: 
 
 You will learn about all techniques involved in solving differential equations, solving difference equations, learning about Fourier series and Fourier transform, Laplace transform, Z-transform. Lastly, you will learn to solve partial differential equations (PDEs.)
 
@@ -56,7 +68,11 @@ For the exams, I do not recommend that you rely on textbooks, since the exams wi
 
 ---
 
-### PROB STAT ELEC ENG
+### EE203: PROB STAT ELEC ENG
+
+Quantity of Content: :star: :star: \\
+Course Workload: :star: :star: \\
+Exam Difficulty: :star: :star:
 
 You will learn all of the basics in statistics required in EE. The course is very easy in my opinion.
 
@@ -70,7 +86,11 @@ For the main textbook accompanied with the teaching, please refer to prof. Howev
 
 ---
 
-### CIR THEORY I/LAB
+### EE213: CIR THEORY I/LAB
+
+Quantity of Content: :star: :star: :star: \\
+Course Workload: :star: :star: \\
+Exam Difficulty: :star: :star: :star:
 
 This is essential for every EE student, period.
 
@@ -82,13 +102,21 @@ P.S. This course has lab exams. I recommend that you go and practice when there 
 
 ---
 
-### ENG MECHANICS I
+### ME213: ENG MECHANICS I
+
+Quantity of Content: :star: :star: :star: \\
+Course Workload: :star: \\
+Exam Difficulty: :star: :star: :star:
 
 The only subject from Mechanical Engineering. Both **Engineering Mechanics by R. Hibbeler** or by **J.L. Meriam & L.G. Kraige** will do your favor. Do homework by yourself since one of the problems will be appear on the exam. End of the review. Good luck.
 
 ---
 
-### CALCULUS III
+### MATH207: CALCULUS III
+
+Quantity of Content: :star: :star: :star: :star: \\
+Course Workload: (No HWs and projects) \\
+Exam Difficulty: :star: :star: :star: :star: :star:
 
 This is an essence. Do not believe someone who say this course is useless. Electromagnetics requires this course. If you want to learn something like optimization techniques, understanding from this course is a must.
 
@@ -101,7 +129,11 @@ I recommend that you do exercises provided by prof by yourself, just like what y
 ![Philadelphia, PA, United States](philadelphia.jpg)
 *Philadelphia, PA, United States (Photo by Trev Adams)*
 
-### ELECT ENG MATH II
+### EE202: ELECT ENG MATH II
+
+Quantity of Content: :star: :star: :star: :star: \\
+Course Workload: (No HWs and projects) \\
+Exam Difficulty: :star: :star: :star: :star: :star:
 
 This is my only course that I got a B+, so far.
 
@@ -118,7 +150,11 @@ I want to emphasize that Linear Algebra is very important in every field of engi
 
 ---
 
-### CIR THEORY II
+### EE214: CIR THEORY II
+
+Quantity of Content: :star: :star: \\
+Course Workload: :star: :star: \\
+Exam Difficulty: :star: :star: :star: 
 
 In my opinion, this course material is not updated at all. The book of which professors are still using is **Network Analysis and Synthesis by Franklin F. Kuo**. Seriously, this book is published in *1966*, the year my father was born. I would not recommend this book to any new EE students since the way this book handles electrical circuits is obviously outdated. Anyway, I do recommend, still, for those who want to understand how circuits are analysed before the time when computers are very rampant. Nowadays, it is more common to use state-space to analyse any linear models (e.g., linear circuits.) In the book mentioned, the author used full matrix representation to analyse the voltages of all nodes, or the currents of all paths to analyse the circuit. Obviously, this is very computationally-heavy! The practices for the problems which are going to be on the exam are also virtually none since this technique is already outdated. However, there are problems from [Ajarn Manop](https://ee.eng.chula.ac.th/manop-wongsaisuwan/) which can be done by hands and can be checked by Simscape Electrical. I also had done it almost entirely and they should be in the EE resources’ Google Drive.
 
@@ -126,7 +162,11 @@ Before the midterm, you will learn the topic mentioned above. After the midterm,
 
 ---
 
-### ENG EMAG
+### EE222: ENG EMAG
+
+Quantity of Content: :star: :star: :star: :star: \\
+Course Workload: :star: :star: \\
+Exam Difficulty: :star: :star: :star: :star: :star: 
 
 Follow **[Ajarn Supatana](https://ee.eng.chula.ac.th/supatana-auethavekiat/)’s lecture notes and her former exams** and you will be fine. End of the review. (Sorry, just kidding.)
 
@@ -144,7 +184,11 @@ First 9 chapters in the book (4th edition) will be taught in the course. If you 
 
 ---
 
-### ELEC MACH I
+### EE253: ELEC MACH I
+
+Quantity of Content: :star: :star: :star: \\
+Course Workload: :star: :star: \\
+Exam Difficulty: :star: :star: :star: 
 
 This is the first course that is, in my opinion, practical-oriented.
 
@@ -157,7 +201,11 @@ This is the first course that is, in my opinion, practical-oriented.
 ![Saint Petersburg, Russia](saint-petersburg.jpg)
 *Saint Petersburg, Russia (Photo by Serj Sakharovskiy)*
 
-### ELEC POWER SYS I
+### EE360: ELEC POWER SYS I
+
+Quantity of Content: :star: :star: :star: \\
+Course Workload: :star: \\
+Exam Difficulty: :star: :star: :star: 
 
 To be honest, this is the course that I did not give my attention that much. (How I can get an A from this course is still astonishing to me!?) 
 
@@ -165,7 +213,11 @@ The prof's slides, materials and former exams should be enough for the course. I
 
 ---
 
-### SEMICON DEV I
+### EE385: SEMICON DEV I
+
+Quantity of Content: :star: :star: :star: :star: \\
+Course Workload: (No HWs and projects) \\
+Exam Difficulty: :star: :star: :star: 
 
 This is where many EE students find themselve whether they really want to pursue further in electronics or not.
 
@@ -175,7 +227,11 @@ The textbook that Ajarn Songpol uses for many years is **Solid State Electronic 
 
 ---
 
-### PRINC COMM/LAB
+### EE371: PRINC COMM/LAB
+
+Quantity of Content: :star: :star: :star: :star: \\
+Course Workload: :star: :star: \\
+Exam Difficulty: :star: :star: :star: 
 
 This course give you many basic topics about communication in general. Some say it is useful, and some say it cannot provide any pictorial understanding about communication at all. I am in the former group; I find it useful enough for me who don't want to study further in communication field.
 
@@ -183,7 +239,11 @@ The textbook that I relied on, parallelly with the prof's slides and materials, 
 
 ---
 
-### FUND DIGIT CIRC
+### EE387: FUND DIGIT CIRC
+
+Quantity of Content: :star: :star: :star: :star: \\
+Course Workload: :star: :star: :star: \\
+Exam Difficulty: :star: :star: :star: 
 
 {: .note } 
 I want to say this for a long time: You don't have to love SEMICON DEV I and ETRON CIRCUIT/LAB to decide whether you want to pursue further in electronics or not. Field of electronics is huge that you don't have to be good at everything.
@@ -205,7 +265,11 @@ For anyone interest in Verilog, I recommend **Quick Start Guide To Verilog by Br
 
 ---
 
-### LIN CONT SYS I/LAB
+### EE333: IN CONT SYS I/LAB
+
+Quantity of Content: :star: :star: :star: :star: \\
+Course Workload: :star: :star: :star: \\
+Exam Difficulty: :star: :star: :star: :star: :star:
 
 The first course in control system theory. Since I'm in the field of electronics, this course is very important (trust me.)
 
@@ -228,7 +292,11 @@ For those who find this course very hard: I personally read all of the topics in
 {: .note } 
 This is where the fun begin.
 
-### PROP ELEC ENG MAT
+### EE308: PROP ELEC ENG MAT
+
+Quantity of Content: :star: :star: :star: :star: \\
+Course Workload: :star: \\
+Exam Difficulty: :star: :star: :star: 
 
 I personally hate this course, lol. (Don't mind me.)
 
@@ -236,13 +304,21 @@ You can rely on prof's slides entirely and you should be fine. The textbook used
 
 ---
 
-### ELEC MEAS/INSTRU
+### EE311: ELEC MEAS/INSTRU
+
+Quantity of Content: :star: :star: :star: \\
+Course Workload: :star: \\
+Exam Difficulty: :star: :star: 
 
 This course teaches you about the basics on electrical instrumentations and measurements. I personally find this course useful. The course has no companion textbook. Some of the topics are out-of-date in my opinion. Relying on prof's slides only and you should be fine. End of the review.
 
 ---
 
-### ETRON CIRCUIT/LAB
+### EE386: ETRON CIRCUIT/LAB
+
+Quantity of Content: :star: :star: :star: :star: :star: \\
+Course Workload: :star: :star: :star: :star: \\
+Exam Difficulty: :star: :star: :star: :star: :star: 
 
 I personally not recommand you to rely prof's slides to fully understand this course! [They will never be enough!](https://www.youtube.com/watch?v=6jZVsr7q-tE)
 
@@ -274,7 +350,11 @@ The terminology used in this course is not the same as in any standard textbook.
 
 ---
 
-### LIN CONT SYS II (compulsory elective; control system theory)
+### EE432: LIN CONT SYS II (compulsory elective; control system theory)
+
+Quantity of Content: :star: :star: :star: :star: \\
+Course Workload: :star: :star: :star: \\
+Exam Difficulty: :star: :star: :star: :star: :star: 
 
 I would like to say that this is a course which teaches all the things that you should have learnt in ELECT ENG MATH II and LIN CONT SYS I but have not learnt yet.
 
@@ -305,7 +385,11 @@ P.S. Most of the sildes from Ajarn David is brought from Stephen Boyd's EE263 ma
 
 ---
 
-### INTRO EMBED SYS (compulsory elective; electronics)
+### EE444: INTRO EMBED SYS (compulsory elective; electronics)
+
+Quantity of Content: :star: :star: :star: :star: \\
+Course Workload: :star: :star: :star: :star: \\
+Exam Difficulty: :star: 
 
 This course is a rely-on-yourself course. I'm not kidding.
 
@@ -319,7 +403,7 @@ For the C++, the situation is very different. C++ is easy to learn but very hard
 
 **C++ Primer by Stanley B. Lippman**: This is recommended by so many Reddit users in the programming field. Very hard to read in my opinion but I got through this book and have no regret afterward. It will take your time and your brain energy. Get prepared for pointers (a LOT of.) Be prepared for headache.
 
-**Programming - Principles and Practice Using C++ by Bjarne Stroustrup**: Written by the creater of C++ himself, this is also recommended by so many (I mean 99\% of) Reddit users. The only downside of this book is that it is very big and take much time for beginner. But hey! C++ is supposed to take a lot of time anyway! So why not just read this book to save any further headache?
+**Programming - Principles and Practice Using C++ by Bjarne Stroustrup**: Written by the creater of C++ himself, this is also recommended by so many (I mean 99% of) Reddit users. The only downside of this book is that it is very big and take much time for beginner. But hey! C++ is supposed to take a lot of time anyway! So why not just read this book to save any further headache?
 
 For Arduino programming, I think learn from your own projects (those will be provided in the class anyway) is the best way. 
 
@@ -327,7 +411,11 @@ Class materials should be enough for the exam. But for anyone further curiousity
 
 ---
 
-### AI ENG (free elective; a course from computer engineering)
+### CP574: AI ENG (free elective; a course from computer engineering)
+
+Quantity of Content: :star: :star: :star: \\
+Course Workload: :star: :star: :star: (If you do them by yourself.) \\
+Exam Difficulty: (No exams.)
 
 {: .note } 
 This is not a course in EE. This is a course from CP which is open for any student EXCEPT from CP itself.
@@ -357,6 +445,36 @@ Course content for each week:
 
 ---
 
+### EE447: ETRON ENG LAB (compulsory lab; electronics)
+
+Quantity of Content: :star: :star: \\
+Course Workload: :star: :star: :star: :star: \\
+Exam Difficulty: (No exams.)
+
+There are 3 labs. 
+- The first one was designing amplifier for ECG signal. In my year, it was done entirely in LTSpice. In A.Y.2022 (on-site teaching,) I heard from my friend that it was done by discrete components on breadboard.
+- The second one was designing IR break beam sensors system for pass-through-a-door detection. I did this lab on-site. The discrete components given by the lab were sometimes (30 - 40%) broken so you have to test them one-by-one by yourself (recommended.) This lab took so much time.
+- The last one was about IoT. Follow the instructions and you will be fine.
+
+This course is fun (in my opinion.) Prof are not very stricted about neatness of the lab reports.
+
+---
+
+### EE436: CONT INSTRU LAB (compulsory lab; control system theory)
+
+Quantity of Content: :star: :star: \\
+Course Workload: :star: :star: :star: :star: :star: \\
+Exam Difficulty: (No exams.)
+
+I will not talk about the labs, I will talk about the workload.
+- You will be in the group of 3-5 people (depended on how many students in the section.)
+- All lab reports have to be done **in a very stricted way**. (Do not make them like a primary-school student.) Note that this has to be done for **all labs**.
+- There are 8 labs (8 weeks and you are done.)
+
+This is the sample report from my year ([link](https://mega.nz/file/Sqo0ULgJ#l6xQNdXdEu9vac-iRfbxxAgqInuQ7fctSG9ElQpIDVs).) Note that this is an average work for one lab. Do not underestimate this course: it takes so much time. Choose your partners wisely.
+
+---
+
 ## Year 4 Semester 1
 
 ![Kyoto, Japan](kyoto-japan.jpg)
@@ -365,7 +483,11 @@ Course content for each week:
 {: .warning } 
 This semester is very heavy. I DO NOT RECOMMEND YOU TO TAKE 22 CREDITS MAX OR MORE THAN THAT! I assume that you still want to have life outside studying. I also assume that you don't want a life like medical students who need more than 60 hours per week of studying. This semester has a pre-project course. This semester has many courses which are supposed to be for Master students, and those courses are much more heavy than you have imagined when you are in the 2nd or 3rd year. So, please do not underestimate this semester. You will hate yourself if you are studying too much.
 
-### RANDOM PROC EE (compulsory elective; control system theory)
+### EE401: RANDOM PROC EE (compulsory elective; control system theory)
+
+Quantity of Content: :star: :star: :star: :star: :star: \\
+Course Workload: :star: :star: :star: :star: :star: (JSS), :star: :star: (CPW) \\
+Exam Difficulty: :star: :star: :star: :star: :star: (JSS), :star: :star: :star: :star: (CPW)
 
 This is the course which teaches all the things that you should have learnt in ELECT ENG MATH II, PROB STAT ELEC ENG and PRINC COMM but have not learnt yet.
 
@@ -391,7 +513,11 @@ To me, I find the classes in random processes to have so many approach to be tau
 
 ---
 
-### MMEDIA COMPR TECH (elective; communication)
+### EE427: MMEDIA COMPR TECH (elective; communication)
+
+Quantity of Content: :star: :star: :star: :star: :star: \\
+Course Workload: :star: :star: :star: \\
+Exam Difficulty: :star: :star: :star: :star:
 
 Why I'm in this course is still mesmerizing myself lol.
 
@@ -399,12 +525,16 @@ This course is recommended for those who want to learn the data compression tech
 
 Bonus from this course is that you will finally know 
 - why ffmpeg can only cut the MPEG video in a lossless way at only some of the certain keyframes.
-- why JPEG compression can be done in more than 50\% compression ratio without visible changes.
+- why JPEG compression can be done in more than 50% compression ratio without visible changes.
 - how f--king complex modern audio compression (MP3) is.
 
 ---
 
-### DIG CONT SYS (compulsory elective; control system theory)
+### EE433: DIG CONT SYS (compulsory elective; control system theory)
+
+Quantity of Content: :star: :star: :star: :star: \\
+Course Workload: :star: :star: \\
+Exam Difficulty: :star: :star: :star: 
 
 I strongly recommend that you should take LIN CONT SYS II before this course.
 
@@ -424,7 +554,11 @@ Last comment: Why Jury stability criterion is not covered in this course???
 
 ---
 
-### PRIN ANALOG CIR (compulsory elective; electronics)
+### EE489: PRIN ANALOG CIR (compulsory elective; electronics)
+
+Quantity of Content: :star: :star: :star: :star: :star: :star: \\
+Course Workload: :star: :star: :star: :star: \\
+Exam Difficulty: :star: :star: :star: :star: :star: 
 
 Note: BJT is forgotten.
 
@@ -456,7 +590,11 @@ I would like to say that you will not have time in this semester, so read only t
 
 ---
 
-### INTRO OPT TECH (elective; control system theory)
+### EE505: INTRO OPT TECH (elective; control system theory)
+
+Quantity of Content: :star: :star: :star: :star: \\
+Course Workload: :star: :star: :star: :star: :star: :star:\\
+Exam Difficulty: :star: :star: :star: :star: :star: 
 
 <img src="meme.jpg" alt="meme" style="width:200px;"/>
 
@@ -491,7 +629,11 @@ To be honest, I find this course to be somehow more heavy in mathematical theory
 
 ---
 
-### DIG IC (elective; electronics)
+### EE545: DIG IC (elective; electronics)
+
+Quantity of Content: :star: :star: :star: :star: :star: \\
+Course Workload: :star: :star: :star: :star: :star: :star:\\
+Exam Difficulty: :star: :star: 
 
 For those who want to do digital design in the future, I recommend that you take this course. It is not required, though. (You don't have to know how to fabricate IC to do digital design, but it is always helpful.)
 
@@ -513,19 +655,19 @@ The recommended book is **CMOS VLSI Design: A Circuits and Systems Perspective b
 
 ## Year 4 Semester 2
 
-### ANALOG IC (elective; electronics)
+### EE546: ANALOG IC (elective; electronics)
 
 to be continued.
 
 ---
 
-### STAT INFER MODEL (elective; control system theory)
+### EE575: STAT INFER MODEL (elective; control system theory)
 
 to be continued.
 
 ---
 
-### DIG SIG PROC (compulsory elective; communication)
+### EE423: DIG SIG PROC (compulsory elective; communication)
 
 to be continued.
 
