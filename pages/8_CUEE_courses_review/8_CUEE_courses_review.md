@@ -12,6 +12,8 @@ has_toc: true
 ![Chulalongkorn University](chula-1.jpg)
 *Chulalongkorn University (Photo by myself)*
 
+You might want to read the [study guide](/2022/12/30/cuee-study-guide.html) first.
+
 This review does not emphasize on how the professors teach each subject. The review summarize why we should learn on this topic, and how can it be applied to subsequent courses. The review also includes the workload of each course so you can decide how many credits you want to register in each semester.
 
 Three metrics are given:
@@ -19,7 +21,7 @@ Three metrics are given:
 - Course Workload: How much HWs and projects in the course are. Please note that this **does not include** the time that you have to read or review the content, or prepare for exam.
 - Exam Difficulty: How difficult the exams (midterm, final, quizzes) are.
 
-Also, this review will be very centered on electronics and control systems, since I pursue in my study on these two fields.
+Also, this review will be very centered on electronics and control systems, since I pursue in my study on these two fields. 
 
 {: .warning } 
 My review may be out-of-date. To be specific, Year 2 of mine is A.Y.2020, Year 3 of mine is A.Y.2021 and Year 4 of mine is A.Y.2022. (A.Y. = academic year.) Please note that 2020 and 2021 were heavily affected by the COVID-19 pandemic and the review on teaching would not be accurate. Hence, I focus on the content of each course instead.
