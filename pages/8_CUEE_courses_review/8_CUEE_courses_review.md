@@ -763,7 +763,7 @@ A8: Usually not. You can see from my CUEE courses review that I recommend 2-3 bo
 
 A9: There is a chance that you will get caught, and it is never worth it. DO NOT CHEAT, EVEN COPYING HWs! Especially for some professors (e.g., JSS,) the consequence is not worth it at all.
 
-![course-policy-exampl](\images\course-policy-exampl.png)
+![course-policy-exampl](course-policy-exampl.png)
  
 Do you think this HW policy is long and tedious? The answer is not. For the prestigious universities, like UC Berkeley, the 3-page-long document for Academic Misconduct Policy is very common. You can see the example [here](https://fa22.datastructur.es/materials/guides/academic-misconduct/).
 
@@ -782,14 +782,14 @@ A10: Yes. However, you should finally decide after finishing the 1st semester of
 ### Q11: Can I choose 3 majors in (Power, Communication, Electronics, Control System?)
 {: .no_toc }
 
-A11: Yes. There are people in the past who can do that. Personally, I do not recommend you do that since you will not have time to take the non-compulsory electives, that you will know things like a duck in three fields.
+A11: Yes. There are people in the past who can do that. Personally, I do not recommend you do that since you will not have time to take the non-compulsory electives in each field enough, that you will know things like a duck in three fields.
 
 ---
 
 ### Q12: There are too many electives that I want to learn. Should I take more than 22 credits per semester so I can learn all of those?
 {: .no_toc }
 
-A12: You can, but it is not recommended. Even if you really want to do so, taking beyond 23-24 credits will be considered heavily by the registrar. The process will take like 1 to 2 months, and you have to declare explicitly why you really want to take that many credits (mine is 2-page long document.)
+A12: You can, but it is not recommended. Even if you really want to do so, taking beyond 23-24 credits will be considered heavily by the registrar. The process will take like 1 to 2 months, and you have to declare explicitly why you really want to take that many credits (mine is a 2-page long document.)
 
 Even if you can get through that tedious process, taking beyond 22 credits will exhaust your time too much that you will hate yourself. Also, your health will be deteriorated.
 
