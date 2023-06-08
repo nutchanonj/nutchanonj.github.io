@@ -22,6 +22,10 @@ This is the main page for publishing my works. For my blog, please go [here](htt
 
 [My Curriculum Vitae](/files/CV_NutchanonJariyanurut.pdf)
 
+## 我的姓名是什麽？
+
+My Chinese name is 王哲生. My family (both of my father and mother sides) immigrate from China to Thailand during the rise of Chinese communist. Thus, my father already has a Chinese surname “Heng” in Teochew or “Wang (王)” in Mandarin Chinese. The name 哲生 is translate directly from my Thai name “Nutchanon (ณัฐชนน)” (born to be a philosopher.)
+
 ## Contact
 
 - **Email:** [nutchanon.non@outlook.co.th](nutchanon.non@outlook.co.th) (Fastest) or [n.jariyanurut2000@gmail.com](n.jariyanurut2000@gmail.com)
