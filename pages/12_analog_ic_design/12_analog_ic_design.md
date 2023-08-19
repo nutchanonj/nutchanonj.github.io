@@ -8,7 +8,7 @@ nav_order: 12
 
 # My Journey on Analog IC Design
 
-{: .note }
+{: .warning } 
 This page is still under construction.
 
 This work utilizes SKY130 PDK. Aims to verify the result from this paper: 
