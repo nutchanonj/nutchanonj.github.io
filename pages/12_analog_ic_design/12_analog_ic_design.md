@@ -9,7 +9,7 @@ nav_order: 12
 # My Journey on Analog IC Design
 
 {: .warning } 
-This page is still under construction.
+This page is still under construction. This work is done by me and Makkawan Lohitsiri.
 
 This work utilizes SKY130 PDK. Aims to verify the result from this paper: 
 
