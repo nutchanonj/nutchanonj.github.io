@@ -655,23 +655,65 @@ The recommended book is **CMOS VLSI Design: A Circuits and Systems Perspective b
 
 ## Year 4 Semester 2
 
+{: .note }
+I decided to take only 2 subjects in that semester because I needed to take (many) Chinese courses at that time before going to Taiwan for my Master's degree. Also, I didn't know how much the senior project workload would be at the time, too. 
+
 ### EE546: ANALOG IC (elective; electronics)
 
-to be continued.
+Quantity of Content: :star: :star: :star: :star: :star: :star: \\
+Course Workload: :star: :star: :star: :star: :star: \\
+Exam Difficulty: :star: :star: :star: :star:
+
+Firstly, [Ajarn Napong](https://ee.eng.chula.ac.th/napong-panitantum/) will teach you some essential analog components that are not covered yet in EE489 (PRIN ANALOG CIR). These are:
+
+- Bandgap References (a.k.a. how to generate very-precise reference voltage, that is temperature-independent.)
+- Oscillators 
+- Phase-Locked Loop
+- Switched-Capacitor Circuits
+
+For these four topics above, they rely on the same textbook **Design of analog CMOS integrated circuits by Behzad Razavi** that you should already accustom to if you have learnt the EE489 before. However, for the topic of "Switched-Capacitor Circuits," Ajarn Napong will use the new textbook: **Analog Integrated Circuit Design by Tony Chan Carusone**. This textbook will cover Switched-Capacitor Circuits in the time-domain, Z-transform sense, which could be used further in filter design. The design procedure will be greatly helped by Z-transform, and it will be more make sense if you have learnt EE433 (DIG CONT SYS) before.
+
+Then, the Tony Chan Carusone's textbook will be mainly used. The topics that will be covered further are:
+
+- Data converters
+    - Nyquist-Rate ADC
+    - Nyquist-Rate DAC
+    - Oversampling ADC/DAC (with the famous Delta-Sigma converter.)
+
+These, for me, is the whole new world where analog has changed its feeling. You will use more mathematics than the physics of devices for the first time here. Also, there will be the feeling that finally, you know how the digital world could help analog world to operate in a proper, good way.
+
+Finally, there will be a final project. Ajarn Napong will give you 2 projects (as of my semester) and you only choose one.
+
+These are:
+
+- Designing system-level oversampling ADC/DAC on the Academic Process Design Kit by Institut de Microelectrònica de Barcelona. If you are motivated enough, you can learn it from here: [link](http://www.cnm.es/users/pserra/apdk/).
+- Use skywater130 pdk to reduplicate the circuit on some papers on IEEE and compare the result. You can see how to install the toolchain in an easy way in my video on YouTube: [link](https://www.youtube.com/watch?v=l5ollq9Nbl8). Also, The project that I've done with Makkawan Lohitsiri for you to see as an example can be found in [link](https://nutchanonj.github.io/pages/12_analog_ic_design/).
+
+The final project is very comprehensive. I recommend that you should definitely take this course if you want to do an analog circuit design in the future. 
 
 ---
 
-### EE575: STAT INFER MODEL (elective; control system theory)
+### EE519: REINFORCE LRN APP (elective; Data Science Master's Degree at CUEE)
 
-to be continued.
+Yes, I take this course because [Ajarn Chaodit](https://ee.eng.chula.ac.th/chaodit-aswakul/).
+
+This course weights only 1 credit and is taught for only 5-weeks-equivalent. (In my semester, it is 3 full-days.) Textbook used in this course is the holy-grail, **Reinforcement Learning: An Introduction by Andrew Barto and Richard S. Sutton**. Ajarn Chaodit will try to teach up to Chapter 7th in that book. Even though his style of teaching is very slow (in my opinion only,) so if you have a good wit, I recommend you to go through that book by yourself prior to class.
+
+Also, if you want to have a good summary, Lilian Weng of OpenAI have made a very good, concise content for you: [Here](https://lilianweng.github.io/posts/2018-02-19-rl-overview/) and [Here](https://lilianweng.github.io/posts/2018-04-08-policy-gradient/).
+
+In my opinion, this course is so damn good. An eye-opener for me. Compare to the optimization techniques, the reinforcement-learning approach seems to use less maths and more common sense to achieve something.
 
 ---
 
-### EE423: DIG SIG PROC (compulsory elective; communication)
-
-to be continued.
-
----
+Even though I didn't take some courses, there are some book recommendation that worth mentioning here for those who take these courses:
+- EE575: STAT INFER MODEL
+    - An Introduction to Statistical Learning: With Applications in R by Daniela Witten, Gareth James, Robert Tibshirani, and Trevor Hastie.
+    - The Elements of Statistical Learning by Jerome H. Friedman, Robert Tibshirani, and Trevor Hastie
+    - Pattern Recognition and Machine Learning by Christopher M. Bishop
+    - For other books, pls refer to [Ajarn Jitkomut's website](http://jitkomut.eng.chula.ac.th/ee575.html).
+- EE423: DIG SIG PROC
+    - Digital Signal Processing by John Proakis and Dimitris Manolakis.
+    - (I, also my friend Taran, find the DSP book from Alan V. Oppenheim too hard to read.)
 
 ## Some Study Guide
 
@@ -679,7 +721,7 @@ to be continued.
 For answering this, I decide to write it as the Q&A so that it is more engaging.
 
 {: .warning } 
-DISCLAIMER: you don't have to do all of these. These are only my suggestion. The expectation from studying are varied between people. So, you don't have to do all these things.
+DISCLAIMER: you don't have to do all of these. These are only my suggestion. The expectation from studying are varied. So, you don't have to do all these things.
 
 ### Q1: Should I just learn the materials, or just do the exercises and former exams?
 {: .no_toc }
@@ -782,7 +824,7 @@ A10: Yes. However, you should finally decide after finishing the 1st semester of
 ### Q11: Can I choose 3 majors in (Power, Communication, Electronics, Control System?)
 {: .no_toc }
 
-A11: Yes. There are people in the past who can do that. Personally, I do not recommend you do that since you will not have time to take the non-compulsory electives in each field enough, that you will know things like a duck in three fields.
+A11: Yes. There are people in the past who can do that. Personally, I do not recommend you do that since you will not have time to take the non-compulsory electives in each field enough, that you will know things like a jack of all trades, master of none.
 
 ---
 
