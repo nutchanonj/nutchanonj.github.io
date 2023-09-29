@@ -28,7 +28,7 @@ During my high school years, The science project I conducted was *[Development o
 ![intania](intania-1.jpg)
 *Faculty of Engineering, Chulalongkorn University (at night)*
 
-Currently I'm studying in [Dept. of Electrical Engineering](https://ee.eng.chula.ac.th/), at [Chulalongkorn University](https://www.chula.ac.th/en/). I'm in the fourth year now. My interests are electronics (especially digital and analog design,) control systems, and anything related to maths in general (including AI, ML and data analytics.)
+From 2019 to 2023, I was studying in [Dept. of Electrical Engineering](https://ee.eng.chula.ac.th/), at [Chulalongkorn University](https://www.chula.ac.th/en/). My interests are electronics (especially digital and analog design,) control systems, and anything related to maths in general (including AI, ML and data analytics.)
 
 My second and third years in the university, I was an active member in [Engineering Student Committee](https://web.facebook.com/escchula). My work there was primarily in academical affair. I organized [Introduction to 10 Departmants in Faculty](https://www.youtube.com/playlist?list=PLb-1vsRR1f1t0EjhCzYgxKQwaf6OssHM0) for 1st year students and the [Intania Job Fair 2022](https://web.facebook.com/escchula/posts/pfbid031wCoLjDPfAfX3XMzcsZA6UDio5GoGfKqqecDtqwC6gruwHCE1a7p4ajGcBWo4Ztnl). The post includes the LINE OpenChat invitation link for job lining that is (as of Oct. 2022) still active, so if you want to find Thai engineering jobs, you may get into there.
 
@@ -45,6 +45,12 @@ During December 2021, I was participating in [Digital Design Thailand Camp 2021]
 Before the fourth year, I had an internship at [Silicon Craft Technology PLC](https://www.sic.co.th/). My works are designing two-stage op-amp to meet the required specifications, with Python coding to automate and accelerate the process, and also  literature review on wireless power transfer technology utilizing NFC frequency.
 
 My Senior Project is the continuation from my internship work, that is, designing wireless power transfer system utilizing NFC frequency.
+
+## Graduates
+![NTU-Taiwan](NTU-Taiwan-1.jpeg)
+*National Taiwan University Main Library (Source: apru.org)*
+
+I’m currently studying as a first year master's student at [Graduate School of Advanced Technology](https://gsat.ntu.edu.tw/tw/home/), [National Taiwan University](https://www.ntu.edu.tw/english/) in the Program for Integrated Circuit Design and Automation. Currently I'm working under supervision of [Prof. Lee Tai-Cheng](https://www.ee.ntu.edu.tw/profile1.php?id=79). My topic is mainly about RF energy harvesting. 
 
 ## Skills
 
