@@ -12,7 +12,9 @@ nav_order: 1
 
 <img src="pages\1_index\my_pic_index.jpg" alt="my_pic" style="width:500px;"/>
 
-Hi! My name is Nutchanon Jariyanurut. I'm currently studying as a fourth year student at [Department of Electrical Engineering](https://ee.eng.chula.ac.th/), [Faculty of Engineering](https://www.eng.chula.ac.th/th/), [Chulalongkorn University](https://www.chula.ac.th/en/).
+Hi! My name is Nutchanon Jariyanurut. I’m currently studying as a first year master's student at [Graduate School of Advanced Technology](https://gsat.ntu.edu.tw/tw/home/), [National Taiwan University](https://www.ntu.edu.tw/english/) in the Program for Integrated Circuit Design and Automation. Currently I'm working under supervision of [Prof. Lee Tai-Cheng](https://www.ee.ntu.edu.tw/profile1.php?id=79). My topic is mainly about RF energy harvesting. 
+
+From 2019 to 2023, I was studying at [Department of Electrical Engineering](https://ee.eng.chula.ac.th/), [Faculty of Engineering](https://www.eng.chula.ac.th/th/), [Chulalongkorn University](https://www.chula.ac.th/en/).
 
 My interests are electronics (especially digital and analog design,) control systems, and anything related to maths in general (including AI, ML and data analytics.)
 
@@ -20,7 +22,7 @@ My spirit animal is in a phylum of [Cnidaria](https://en.wikipedia.org/wiki/Cnid
 
 This is the main page for publishing my works. For my blog, please go [here](https://nutchanonj.github.io/myblog/).
 
-[My Curriculum Vitae](/files/CV_NutchanonJariyanurut.pdf)
+[My Curriculum Vitae](/files/CV_NutchanonJariyanurut.pdf) *(NOT UPDATED YET!)*
 
 ## 我的姓名是什麽？
 
