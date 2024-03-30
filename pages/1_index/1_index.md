@@ -16,13 +16,13 @@ Hi! My name is Nutchanon Jariyanurut. I’m currently studying as a first year m
 
 From 2019 to 2023, I was studying at [Department of Electrical Engineering](https://ee.eng.chula.ac.th/), [Faculty of Engineering](https://www.eng.chula.ac.th/th/), [Chulalongkorn University](https://www.chula.ac.th/en/).
 
-My interests are electronics (especially digital and analog design,) control systems, and anything related to maths in general (including AI, ML and data analytics.)
+My interests are electronics (especially analog and digital design,) control systems, and anything related to maths in general (including AI, ML and data analytics.)
 
 My spirit animal is in a phylum of [Cnidaria](https://en.wikipedia.org/wiki/Cnidaria).
 
 This is the main page for publishing my works. For my blog, please go [here](https://nutchanonj.github.io/myblog/).
 
-[My Curriculum Vitae](/files/CV_NutchanonJariyanurut.pdf) *(NOT UPDATED YET!)*
+[My Curriculum Vitae](/files/CV_NutchanonJariyanurut.pdf) *(update: Feb. 2024)*
 
 ## 我的姓名是什麽？
 
