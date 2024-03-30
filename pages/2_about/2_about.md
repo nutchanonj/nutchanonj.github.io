@@ -50,7 +50,7 @@ My Senior Project is the continuation from my internship work, that is, designin
 ![NTU-Taiwan](NTU-Taiwan-1.jpeg)
 *National Taiwan University Main Library (Source: apru.org)*
 
-I’m currently studying as a first year master's student at [Graduate School of Advanced Technology](https://gsat.ntu.edu.tw/tw/home/), [National Taiwan University](https://www.ntu.edu.tw/english/) in the Program for Integrated Circuit Design and Automation. Currently I'm working under supervision of [Prof. Lee Tai-Cheng](https://www.ee.ntu.edu.tw/profile1.php?id=79). My topic is mainly about RF energy harvesting. 
+I’m currently studying as a first year master's student at [Graduate School of Advanced Technology](https://gsat.ntu.edu.tw/tw/home/), [National Taiwan University](https://www.ntu.edu.tw/english/) in the Program for Integrated Circuit Design and Automation. Currently I'm working under supervision of [Prof. Lee Tai-Cheng](https://www.ee.ntu.edu.tw/profile1.php?id=79). My topic in the first semester is mainly about RF energy harvesting. Since the second semester, my topic shifts to data converter for class-d amplifier.
 
 ## Skills
 
