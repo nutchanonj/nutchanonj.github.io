@@ -22,7 +22,7 @@ My spirit animal is in a phylum of [Cnidaria](https://en.wikipedia.org/wiki/Cnid
 
 This is the main page for publishing my works. For my blog, please go [here](https://nutchanonj.github.io/myblog/).
 
-[My Curriculum Vitae](/files/CV_NutchanonJariyanurut.pdf) *(update: Feb. 2024)*
+[My Curriculum Vitae](/files/CV_NutchanonJariyanurut.pdf) *(update: Jun. 2024)*
 
 ## 我的姓名是什麽？
 
