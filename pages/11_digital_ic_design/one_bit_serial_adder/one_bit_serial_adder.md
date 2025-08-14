@@ -8,13 +8,13 @@ nav_order: 2
 
 # One-Bit Serial Adder
 
-This work is done by me and Makkawan Lohitsiri.
+This work was done by me and Makkawan Lohitsiri.
 
 ## Section 1: Before Layouting
 
-This one-bit serial adder is made by using 0.12 μm CMOS technology. The logic that we will use are static CMOS logics because it is the most reliable and easy to implement.
+This one-bit serial adder is made by using 0.12 μm CMOS technology. The logic that we will use is static CMOS logic because it is the most reliable and easiest to implement.
 
-First, the functional circuit is purposed as a behavioral style in Verilog
+First, the functional circuit is proposed as a behavioral style in Verilog.
 
 ```verilog
 module serial_adder 
@@ -101,7 +101,7 @@ The behavioral simulation of the circuit is done in Xilinx Vivado 2022.2. The wa
 
 The values of s and c(out) are as expected, so we can use this Verilog file to design our circuit.
 
-The schematic of this circuit is also synthesized by Xilinx Vivado 2022.2 as in this picture below.
+The schematic of this circuit is also synthesized by Xilinx Vivado 2022.2, as shown in the picture below.
 
 ![Generated circuit](circuit_gened.png)
 
@@ -122,11 +122,11 @@ The one-bit serial adder is built by these modular units:
 - D flip-flop. (Please note that each logic gate with a clock gating is composed of that logic gate and an additional transmission gate.)
     ![D flip-flop](D_flip_flop.png)
 
-The overall circuit when integrating all the modules together.
+The overall circuit is created when all the modules are integrated together.
 
 ![Overall diagram](overall_diagram.png)
 
-To restart the adder, the active-low reset signal <span style="color:#e09a67">(brown line)</span> is fed to the circuit. The D flip-flop will be reset asynchronously and force the C(in) <span style="color:#ff7070">(red line)</span> to be zero. The multiplexer also forces the output to be zero if the reset signal is still active to prevent the C(in) signal from taking the C(out) value when the calculation is not start yet, so when the calculation is started, the first C(in) fed to the C_out_circuit and S_out_circuit is zero as it should be.
+To restart the adder, the active-low reset signal <span style="color:#e09a67">(brown line)</span> is fed to the circuit. The D flip-flop will be reset asynchronously and force the C(in) <span style="color:#ff7070">(red line)</span> to be zero. The multiplexer also forces the output to be zero if the reset signal is still active to prevent the C(in) signal from taking the C(out) value when the calculation is not start yet, so when the calculation is started, the first C(in) is fed to the C_out_circuit and S_out_circuit is zero as it should be.
 
 The critical path of a circuit is shown below.
 
@@ -136,7 +136,7 @@ The critical path of a circuit is shown below.
 
 ### Transistor-level diagram
 
-For clarity, the transistor schematics will be presented on the logic gates level (NAND2, NAND3, INV, transmission gate, XOR2.) 
+For clarity, the transistor schematics will be presented on the logic gates level (NAND2, NAND3, INV, transmission gate, XOR2). 
 
 |![NAND2 transistor diagram](diagram_NAND2.png)|NAND2|
 |![NAND3 transistor diagram](diagram_NAND3.png)|NAND3|
@@ -146,7 +146,7 @@ For clarity, the transistor schematics will be presented on the logic gates leve
 
 ### Layout of each primitive cell
 
-These are the primitive cells that we use to build the circuit: NAND2, NAND3, INV, Transmission gate, XOR2.
+These are the primitive cells that we use to build the circuit: NAND2, NAND3, INV, Transmission gate, and XOR2.
 
 |![NAND2 layout diagram](layout_NAND2.png)|NAND2|
 |![NAND3 layout diagram](layout_NAND3.png)|NAND3|
@@ -176,17 +176,17 @@ These are the primitive cells that we use to build the circuit: NAND2, NAND3, IN
 
     ![Buffer](layout_buffer.png)
 
-The overall layout of the adder is shown below. It has passed the design rules check (DRC.)
+The overall layout of the adder is shown below. It has passed the design rules check (DRC).
 
 ![Overall layout](overall_layout.png)
 
 ## Section 5: Post-layout Testing.
 
-The testing of one-bit adder will use this sequence:
+The testing of the one-bit adder will use this sequence:
 
 ![Post-layout input sequence](postlayout_input_sequence.png)
 
-The reset signal is low for 5 clock cycles and then is high. Then, the A and B are fed to the circuit from the LSB to the MSB for 32 clock cycles. After that, the reset signal will be low again. The waveform are shown here.
+The reset signal is low for 5 clock cycles and then is high. Then, the A and B are fed to the circuit from the LSB to the MSB for 32 clock cycles. After that, the reset signal will be low again. The waveforms are shown here.
 
 ![5 GHz Test](freq_5GHz.png)
 
@@ -202,7 +202,7 @@ The reset signal is low for 5 clock cycles and then is high. Then, the A and B a
 
 When the CLK frequency = 12.5 GHz, C(out) and S(out) are not settled yet at the end of some clock cycles. Therefore, our adder can work at the maximum clock frequency of 10 GHz.
 
-Time required for 32-bit addition is 1/(10 GHz) * 32 = 3.2 ns.
+Time required for a 32-bit addition is 1/(10 GHz) * 32 = 3.2 ns.
 
 ## Section 6: Design metrics and performance.
 
