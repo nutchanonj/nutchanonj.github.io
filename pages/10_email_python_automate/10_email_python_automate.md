@@ -5,17 +5,17 @@ permalink: /pages/10_email_python_automate/
 nav_order: 10
 ---
 
-# Send emails to many peoples using Python :email:
+# Send emails to many people using Python :email:
 
 Suppose that you are organizing your faculty's job fair, and you have this information to send as a CSV.
 
 ![Time Slots](timeslot.png)
 
-Suppose that there're over 100 companies participated. You have to send them relevant information to each company. Doing so manually could be daunting and risky of probable mistake (which can cost your faculty's reputation!) So, send them automatically is more safe.
+Suppose that there are over 100 companies participating. You have to send them relevant information to each company. Doing so manually could be daunting and risky of making a probable mistake (which can cost your faculty’s reputation!) So, sending them automatically is safer.
 
-Fortunately, Python comes for your rescue! But before doing that, you have to set your gmail accordingly ([follow this link](https://support.google.com/a/answer/6260879?hl=en)) for the Python code to have access to that gmail account. (Please turn off that setting when you finish doing things!)
+Fortunately, Python comes to your rescue! But before doing that, you have to set your Gmail accordingly ([follow this link](https://support.google.com/a/answer/6260879?hl=en)) for the Python code to have access to that Gmail account. (Please turn off that setting when you finish doing things!)
 
-Then, you can use this code template to send emails. Tweak this code for your need.
+Then, you can use this code template to send emails. Tweak this code for your needs.
 
 ```python
 import smtplib
@@ -83,9 +83,9 @@ if __name__ == '__main__':
             
 ```
 
-The CSV and attachment files have to be in the same directory. 
+The CSV and attachment files have to be in the same directory.
 
-This code had been used in the real Job Fair when I organize it for my faculty in January 2022. At first, I was afraid that automated mails would end up in junk or be marked as spams. It didn't happen, though.
+This code had been used in the real Job Fair when I organized it for my faculty in January 2022. At first, I was afraid that automated emails would end up in junk or be marked as spam. It didn’t happen, though.
 
 However, I recommend that you try to send this automated mail to your test account first!
 
