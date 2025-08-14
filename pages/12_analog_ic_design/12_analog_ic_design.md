@@ -18,11 +18,11 @@ The paper: P. -H. Hsieh, J. Maxey and C. -K. K. Yang, "Minimizing the Supply Sen
 
 Firstly, follow this video ([link](https://www.youtube.com/watch?v=l5ollq9Nbl8)) to install things on Windows (I use the packaged PDK from [iic-osic](https://github.com/iic-jku/osic-multitool))
 
-To make a simple 7-stages VCO, this can be done on xschem.
+A simple 7-stage VCO can be made on xschem.
 
 ![VCO-simple](VCO-simple.png)
 
-To make things easier, you can automate frequency measuring by using Python with `pyspice` package. (Given that xschem uses ngspice to simulate the circuit.)
+To make things easier, you can automate frequency measuring by using Python with the `pyspice` package. (Given that xschem uses ngspice to simulate the circuit.)
 
 ```python
 # Code for Generating Plot Between
@@ -154,21 +154,21 @@ for corner in corner_list:
 # After the csv is generated, data cleaning (manually) is required.
 ```
 
-Then, the csv file can be cleaned and plotted in a corresponding manner to get:
+Then, the CSV file can be cleaned and plotted in a corresponding manner to get:
 
 ![VCO-simple](freq_osc_corner=tt.png)
 
-Some data manipulation by Python will get the lowest points from each lines.
+Some data manipulation by Python will get the lowest points from each line.
 
 ![VCO-simple](freq_osc_corner=tt_min.png)
 
-You can see that the lowest points are arranging in a linear trend. If simulations from all corners (TT, FF, SS, SF, FS) are done in the same ways, the result is:
+You can see that the lowest points are arranged in a linear trend. If simulations from all corners (TT, FF, SS, SF, FS) are done in the same way, the result is:
 
 ![VCO-simple](freq_osc_supply_insensitive.png)
 
-The result from corner SF is not plotted because the trend is not linear anymore. (Maybe because the process in the paper is smaller than 130 nm?)
+The result from the corner SF is not plotted because the trend is not linear anymore. (Maybe because the process in the paper is smaller than 130 nm?)
 
-The `t_up`, `t_down`, `A_up`, `A_down` in the paper can be measured in the same way:
+The `t_up`, `t_down`, `A_up`, and `A_down` in the paper can be measured in the same way:
 
 ```python
 # Code for Generating Plot Between
@@ -310,7 +310,7 @@ df.to_csv("wave_chars.csv", encoding='utf-8')
 # After the csv is generated, data cleaning (manually) is required.
 ```
 
-The result can be plotted by Python after some data cleaning.
+The result can be plotted using Python after cleaning up some data.
 
 ![VCO-simple](t_delay.png)
 
