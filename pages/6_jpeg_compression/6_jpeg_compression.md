@@ -7,26 +7,26 @@ nav_order: 6
 
 # Note on JPEG compression :maple_leaf:
 
-This is the demonstration of how the image is compressed by JPEG discrete cosine transform method.
+This is a demonstration of how the image is compressed by the JPEG discrete cosine transform method.
 
-To begin, let's set the value of image quality as you like (10% to 95%.)
+To begin, let’s set the value of image quality to what you like (10% to 95%).
 
 ```python
-# setting the quality of image.
+# setting the quality of an image.
 quality = 20
 ```
 
-Import all of the nessessary libraries.
+Import all of the necessary libraries.
 
 ```python
-# Import nessessary libraries.
+# Import necessary libraries.
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy
 import imageio.v3 as iio
 ```
 
-Then, import and image and show it.
+Then, import an image and show it.
 
 ```python
 # Read the image and show its size.
@@ -39,7 +39,7 @@ plt.imshow(im,cmap='gray')
 
 ![Original Image](barb_original.png)
 
-This is the functions for DCT and inverse-DCT.
+These are the functions for DCT and inverse-DCT.
 
 ```python
 # Function of 2-dimensional DCT.
@@ -51,7 +51,7 @@ def idct2D(a):
     return scipy.fft.idct( scipy.fft.idct( a, axis=0 , norm='ortho'), axis=1 , norm='ortho')
 ```
 
-Normalize this grayscale image with minusing 128. (The shade is represented by 0 to 255.) Then, doing DCT in a 8x8 blocks manner and show the DCT-ed image.
+Normalize this grayscale image by subtracting 128. (The shade is represented by 0 to 255.) Then, DCT was done in an 8x8 block manner, and the DCT-ed image was shown.
 
 ```python
 # Normalize.
@@ -74,7 +74,7 @@ plt.title( "8x8 DCTs of the image")
 
 ![DCT Image](barb_dct.png)
 
-It is more convenient to deal with seperated 8x8 blocks. Let's do it!
+It is more convenient to deal with separated 8x8 blocks. Let's do it!
 
 ```python
 # %% 8x8 Blocking.
@@ -105,9 +105,9 @@ plt.show()
 
 ![original vs DCT](original_vs_dct.png)
 
-*The left 8x8 blocks are from the original image, where the right 8x8 blocks are the dct of that corresponding blocks*
+*The left 8x8 blocks are from the original image, where the right 8x8 blocks are the DCT of those corresponding blocks.*
 
-Then, it's time for quantization. The quantization table and its relation to quality is gratefully brought from [seanwu1105's prototype-jpeg repository](https://github.com/seanwu1105/prototype-jpeg/). Hat off to him!
+Then, it's time for quantization. The quantization table and its relation to quality are gratefully brought from [seanwu1105's prototype-jpeg repository](https://github.com/seanwu1105/prototype-jpeg/). Hat off to him!
 
 ```python
 # %% Quantization.
@@ -131,7 +131,7 @@ LUMINANCE_QUANTIZATION_TABLE = np.array((
 ))
 ```
 
-The quantized 8x8 blocks in kept in `dct_blocks_quant`.
+The quantized 8x8 blocks are kept in `dct_blocks_quant`.
 
 ```python
 # Store quantized value in dct_block_quant.
@@ -156,9 +156,9 @@ plt.show()
 
 ![quantized vs unquantized](quantized_vs_unquantized.png)
 
-*The left 8x8 blocks are from the quantized DCT blocks, where the right 8x8 blocks are the corresponding unquantized DCT blocks. You can see that further away from the DC coefficent at the upper left, the value of AC coefficients are more heavily decreased relatively.*
+*The left 8x8 blocks are from the quantized DCT blocks, where the right 8x8 blocks are the corresponding unquantized DCT blocks. You can see that further away from the DC coefficient at the upper left, the values of the AC coefficients have decreased relatively heavily.*
 
-Now, we are tempted to reconstruct the image to see how much the image is changed after the compression. Let's begin! (Notice that it is just like to step back from where we are.)
+Now, we are tempted to reconstruct the image to see how much the image has changed after the compression. Let's begin! (Notice that it is just like stepping back from where we are.)
 
 ```python
 # %% Rescaling by quantization.
@@ -192,7 +192,7 @@ plt.imshow(decode_im,cmap='gray')
 
 *Reconstruction from the compressed file.*
 
-To measure PSNR, this is the way.
+This is the way to measure PSNR.
 
 ```python
 # %% PSNR
@@ -208,4 +208,4 @@ def psnr(data1, data2, max_pixel=255):
 psnr_exp = psnr(im, decode_im)
 ```
 
-Let's play this code by yourself! Maybe on Google Colab, Jupyter Notebook or Spyder. in Spyder, you can use `# %%` to separate a code into sections and run those one by one (just like MATLAB's `%%`.) Have fun!
+Let's play this code by yourself! Maybe on Google Colab, Jupyter Notebook, or Spyder. In Spyder, you can use `# %%` to separate a code into sections and run those one by one (just like MATLAB's `%%`.) Have fun!
